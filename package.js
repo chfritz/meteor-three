@@ -90,6 +90,21 @@ Package.on_use(function(api) {
 		"extras/shaders/VignetteShader.js",
 
 		// THREE.Projector is now here.
-		"extras/renderers/Projector.js"
+		"extras/renderers/Projector.js",
+
+        // geometries
+        "extras/geometries/ConvexGeometry.js",
+        "extras/geometries/DecalGeometry.js",
+        "extras/geometries/hilbert2D.js",
+        "extras/geometries/hilbert3D.js",
+        "extras/geometries/TeapotBufferGeometry.js",
+        "extras/geometries/TextGeometry.js",
+
+        "extras/utils/FontUtils.js",
+        "extras/utils/GeometryUtils.js",
+        "extras/utils/ImageUtils.js",
+        "extras/utils/ShadowMapViewer.js",
+        "extras/utils/UVsDebug.js"        
+        
 	]);
 });
